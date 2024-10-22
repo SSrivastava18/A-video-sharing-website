@@ -6,14 +6,14 @@ import Video from './pages/Video/Video'
 import { Routes } from 'react-router-dom'
 import { Route } from 'react-router-dom'
 
-function App() {
-  const [count, setCount] = useState(0)
+const App =()=> {
+  const [sidebar, setSidebar] = useState(true);
 
   return (
     <div>
-      <Navbar/>
+      <Navbar setSidebar={setSidebar} />
       <Routes>
-        <Route path = '/' element={<Home/>} />
+        <Route path = '/' element={<Home sidebar = {sidebar}/>} />
         <Route path = '/video/:categoryId/:videoId' element = {<Video/>} />
       </Routes>
     </div>
