@@ -11,7 +11,7 @@
     width: 20px;
     margin-right: 20px;
 }
-.side-links{
+.side-link{
     display: flex;
     align-items: center;
     margin-bottom:20px;
@@ -50,4 +50,8 @@
 .small-sidebar hr{
     width: 50%;
     margin-bottom: 25px;
+}
+.side-link.active img{
+padding-bottom: 2px;
+border-bottom: 3px solid red;
 }

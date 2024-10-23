@@ -50,6 +50,32 @@ const PlayVideo = () => {
                         </div>
                     </div>
                 </div>
+                <div className="comment">
+                    <img src={user_profile} alt="" />
+                    <div>
+                        <h3>Saurabh Srivastava <span>1 day ago</span></h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum deserunt beatae autem quam quidem fugiat deleniti repellendus! Voluptatem magnam illo molestias, eius ipsam harum, unde quam aliquam facere ratione animi?</p>
+                        <div className="comment-action">
+                            <img src={like} alt="" />
+                            <span>200</span>
+                            <img src={dislike} alt="" />
+                            <span>20</span>
+                        </div>
+                    </div>
+                </div>
+                <div className="comment">
+                    <img src={user_profile} alt="" />
+                    <div>
+                        <h3>Saurabh Srivastava <span>1 day ago</span></h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum deserunt beatae autem quam quidem fugiat deleniti repellendus! Voluptatem magnam illo molestias, eius ipsam harum, unde quam aliquam facere ratione animi?</p>
+                        <div className="comment-action">
+                            <img src={like} alt="" />
+                            <span>200</span>
+                            <img src={dislike} alt="" />
+                            <span>20</span>
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </div>
