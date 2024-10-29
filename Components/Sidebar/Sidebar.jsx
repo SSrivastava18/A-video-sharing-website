@@ -9,11 +9,15 @@ import tech from '../../assets/tech.png'
 import music from '../../assets/music.png'
 import blogs from '../../assets/blogs.png'
 import news from '../../assets/news.png'
-import jack from '../../assets/jack.png'
-import simon from '../../assets/simon.png'
-import tom from '../../assets/tom.png'
-import megan from '../../assets/megan.png'
-import cameron from '../../assets/cameron.png'
+import bb from '../../assets/bb.jpg'
+import pj from '../../assets/pj.jpg'
+import sa from '../../assets/8118.jpg'
+import vk from '../../assets/vk.jpg'
+import zk from '../../assets/zakir.jpg'
+
+
+
+
 
 
 
@@ -54,19 +58,19 @@ const Sidebar = ({sidebar, category, setCategory}) => {
       <div className="subscribed-list">
         <h3>Subscribed</h3>
         <div className="side-link">
-          <img src={jack} alt="" /><p>PewDiePie</p>
+          <img src={bb} alt="" /><p>Bhuvan Bam</p>
         </div>
         <div className="side-link">
-          <img src={simon} alt="" /><p>Mr Beast</p>
+          <img src={pj} alt="" /><p>PJ-Explained</p>
         </div>
         <div className="side-link">
-          <img src={tom} alt="" /><p>Justin Bieber</p>
+          <img src={sa} alt="" /><p>Saurabh Srivastva</p>
         </div>
         <div className="side-link">
-          <img src={megan} alt="" /><p>5-Minutes Crafts</p>
+          <img src={zk} alt="" /><p>Zakir Khan</p>
         </div>
         <div className="side-link">
-          <img src={cameron} alt="" /><p>Nas Daily</p>
+          <img src={vk} alt="" /><p>Virat Kohli</p>
         </div>
       </div>
     </div>

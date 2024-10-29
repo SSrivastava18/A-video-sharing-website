@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
+  /* background-color: skyblue; */
 }
 a{
   text-decoration: none;
@@ -14,4 +15,7 @@ img{
 .flex-div{
   display: flex;
   align-items: center;
+}
+body{
+  background-color: skyblue;
 }

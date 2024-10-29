@@ -4,6 +4,9 @@
     grid-column-gap:16px;
     grid-row-gap:30px;
     margin-top: 15px;
+    /* background-color: rgb(43, 226, 125);
+    */
+    background-color: skyblue;
 }
 .card img{
     width: 100%;
